@@ -159,6 +159,14 @@ cd build
 
 Dataset-specific parameters (dimensions, partitioning, search settings) are defined in `src/dhnsw/data_config.hh`. To add a new dataset or adjust existing ones, edit the `config_map`.
 
-## License
+## Citation
 
-This project is licensed under the [MIT License](LICENSE).
+```bibtex
+@inproceedings{liu2025dhnsw,
+  author = {Yi Liu and Fei Fang and Chen Qian},
+  title = {Efficient Vector Search on Disaggregated Memory with d-HNSW},
+  booktitle = {Proceedings of the 17th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage)},
+  year = {2025},
+  pages = {1--8},
+  doi = {10.1145/3736548.3737822}
+}
