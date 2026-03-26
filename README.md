@@ -137,7 +137,7 @@ cd build
     --server_ip=10.0.0.1 \
     --port=50051 \
     --rdma_port=8888 \
-    --use_nic_idx=0 \
+    --use_nic_idx=3 \
     --dataset_path=../datasets/sift/sift_base.fvecs \
     --dim=128 \
     --num_sub_hnsw=160 \

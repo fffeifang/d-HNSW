@@ -430,7 +430,7 @@ void* client_worker(void* param) {
             // --- Accumulate results for recall (store each retrieved and corresponding ground truth) ---
             for (int i = 0; i < current_batch_size; i++) {
                 int pos = i * top_k;
-                int gt = *(ground_truth_ptr + ((query_index + i) * dim_ground_truth));
+                int gt = *(ground_truth_ptr + (((query_index + i) % n_query_data_thread) * dim_ground_truth));
                 int retrieved = batch_original_index[pos];
                 all_ground_truth.push_back(gt);
                 all_retrieved.push_back(retrieved);
