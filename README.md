@@ -170,3 +170,15 @@ Dataset-specific parameters (dimensions, partitioning, search settings) are defi
   pages = {1--8},
   doi = {10.1145/3736548.3737822}
 }
+
+```bibtex
+@article{fang2026d,
+  title={d-HNSW: A High-performance Vector Search Engine on Disaggregated Memory},
+  author={Fang, Fei and Liu, Yi and Qian, Chen},
+  journal={Proceedings of the ACM on Measurement and Analysis of Computing Systems},
+  volume={10},
+  number={2},
+  pages={1--28},
+  year={2026},
+  publisher={ACM New York, NY, USA}
+}
